@@ -8,21 +8,21 @@ Todoアプリ(node.js)
 
 ■インストール
 
-・nodeプロジェクト作成<br>
-　npm init --yes
+　・nodeプロジェクト作成<br>
+　　npm init --yes
 
-・expressインストール<br>
-　npm install express ejs
+　・expressインストール<br>
+　　npm install express ejs
 
-・nodemonインストール<br>
-　npm install -g nodemon<br>
+　・nodemonインストール<br>
+　　npm install -g nodemon<br>
 　
-⇒　nodemon app.js
+　⇒　nodemon app.js
 
-・mysqlパッケージのインストール<br>
-　npm install mysql
+　・mysqlパッケージのインストール<br>
+　　npm install mysql
 
-・express-sessionインストール<br>
+　・express-sessionインストール<br>
 
 　
 
@@ -49,19 +49,19 @@ Todoアプリ(node.js)
 　　DROP TABLE [テーブル名];<br>
 　　DROP DATABASE [データベース名];<br>
  
- ■DBテーブル定義
+■DBテーブル定義
 
-①articles<br>
- ・id<br>
- ・title<br>
- ・summary<br>
- ・content<br>
- ・category<br>
+　①articles<br>
+ 　・id<br>
+ 　・title<br>
+ 　・summary<br>
+ 　・content<br>
+ 　・category<br>
  
-②users<br>
- ・id<br>
- ・username<br>
- ・email<br>
- ・password<br>
+　②users<br>
+ 　・id<br>
+ 　・username<br>
+ 　・email<br>
+ 　・password<br>
  
  
