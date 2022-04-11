@@ -37,9 +37,9 @@ Todoアプリ(node.js)
 　<br>
 　・MySQLを終了<br>
 　　net stop mysql57<br>
-　
+　<br>
 　★データベースの作成<br>
-　
+　<br>
 　　SHOW databases;<br>
 　　CREATE DATABASE [データベース名];<br>
 　　USE [データベース名];<br>
