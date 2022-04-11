@@ -29,36 +29,36 @@ Todoアプリ(node.js)
 ■DB：mysql
 
 　・MySQLを起動⇒MySQLにログインという順番<br>
-　net start mysql57<br>
-　mysql --user=root --password
-　
-　・MySQLログアウトを起動<br>
-　exit;
-　
+　　net start mysql57<br>
+　　mysql --user=root --password<br>
+　<br>
+　・MySQLログアウト<br>
+　　exit;<br>
+　<br>
 　・MySQLを終了<br>
-　net stop mysql57
+　　net stop mysql57<br>
 　
-　★データベースの作成
+　★データベースの作成<br>
 　
-　SHOW databases;<br>
-　CREATE DATABASE [データベース名];<br>
-　USE [データベース名];<br>
-　SHOW tables;<br>
-　CREATE TABLE [テーブル名] (id INT AUTO_INCREMENT, name TEXT, PRIMARY KEY (id)) DEFAULT CHARSET=utf8;<br>
-　DESCRIBE [テーブル名];<br>
-　DROP TABLE [テーブル名];<br>
-　DROP DATABASE [データベース名];<br>
+　　SHOW databases;<br>
+　　CREATE DATABASE [データベース名];<br>
+　　USE [データベース名];<br>
+　　SHOW tables;<br>
+　　CREATE TABLE [テーブル名] (id INT AUTO_INCREMENT, name TEXT, PRIMARY KEY (id)) DEFAULT CHARSET=utf8;<br>
+　　DESCRIBE [テーブル名];<br>
+　　DROP TABLE [テーブル名];<br>
+　　DROP DATABASE [データベース名];<br>
  
  ■DBテーブル定義
 
-・articles<br>
+①articles<br>
  ・id<br>
  ・title<br>
  ・summary<br>
  ・content<br>
  ・category<br>
  
-・users<br>
+②users<br>
  ・id<br>
  ・username<br>
  ・email<br>
