@@ -1,0 +1,14 @@
+<header>
+    <div class="header-nav">
+      <p>ようこそ、<%= locals.username %>さん</p>
+      <ul>
+        <li><a href="/index">ToDo一覧</a></li>
+        <% if(locals.isLoggedIn) { %>
+          <li><a href="/logout">ログアウト</a></li>
+        <% } else { %>
+          <li><a href="/login">ログイン</a></li>
+        <% } %>
+      </ul>
+    </div>
+    <p>LIST APP</p>
+</header>
