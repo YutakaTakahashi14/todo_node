@@ -1,5 +1,5 @@
 # todo_node
-Todoアプリ(node.js)
+Todoアプリ(node.js+Express)
 
 ■実行コマンド
 
