@@ -16,8 +16,6 @@ Todoアプリ(node.js+Express)
 
 　・nodemonインストール<br>
 　　npm install -g nodemon<br>
-　
-　⇒　nodemon app.js
 
 　・mysqlパッケージのインストール<br>
 　　npm install mysql
